@@ -1,1 +1,3 @@
 # archscripts
+
+Nicotine fueled mediocrity
