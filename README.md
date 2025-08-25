@@ -1,3 +1,3 @@
 # archscripts
 
-Nicotine fueled mediocrity
+Forged by nicotine and boredom.
