@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env zsh
 
 bemenu-run \
     --fn "JetBrains Mono 30" \
