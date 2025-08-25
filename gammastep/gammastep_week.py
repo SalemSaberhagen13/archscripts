@@ -2,7 +2,7 @@
 import datetime
 import os
 
-gamma_manager = '/home/salem/.local/bin/gammastep/gammastep_manager.sh'
+gamma_manager = f'{os.getenv('HOME')}/.local/bin/gammastep/gammastep_manager.sh'
 
 def is_weekend_config_time():
     now = datetime.datetime.now()
