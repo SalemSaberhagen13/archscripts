@@ -15,11 +15,8 @@ try:
     )
 
     if result.returncode == 0:
-        print("Esecuzione dello script...")
         _ = subprocess.run(["../gammastep/gammastep_manager.sh movie"])
-    else:
-        print("Aborted")
 
 except FileNotFoundError:
-    print("Errore: Zenity not installed")
+    print("Error: Zenity not installed")
     sys.exit(1)
